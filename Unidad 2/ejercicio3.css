@@ -1,0 +1,23 @@
+.caja3{
+    display: flex;
+flex-direction: row;
+border: 2px solid black;
+color: white;
+justify-content: space-between;}
+.rojo3{
+    background-color: red;
+height: 100px;
+width: 150px;
+text-align: center;
+padding-top: 60px;
+}
+.azul3{background-color: blue;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 60px;}
+.verde3{background-color: green;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 60px;}
