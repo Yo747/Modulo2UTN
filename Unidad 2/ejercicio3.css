@@ -6,18 +6,21 @@ color: white;
 justify-content: space-between;}
 .rojo3{
     background-color: red;
-height: 100px;
+height: 200px;
 width: 150px;
-text-align: center;
-padding-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .azul3{background-color: blue;
-    height: 100px;
+    height: 200px;
     width: 150px;
-    text-align: center;
-    padding-top: 60px;}
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 .verde3{background-color: green;
-    height: 100px;
+    height: 200px;
     width: 150px;
-    text-align: center;
-    padding-top: 60px;}
+    display: flex;
+    justify-content: center;
+    align-items: center; }
