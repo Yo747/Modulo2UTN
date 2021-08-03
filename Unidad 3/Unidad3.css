@@ -8,6 +8,7 @@ body{background-color: yellowgreen}
 
     .Titulo{ background-color: blue;
         display: inline-flex;
+        width: 100%;
         color: white;
         transition: all 0.4s;}
         .Titulo:hover {color: gold;
@@ -17,18 +18,19 @@ body{background-color: yellowgreen}
         .Subtitulo {background-color: white;
             color: black;
         font-size: xx-large;
-        width: 150px;
+        width: 100%;
         height: 150px;
-        display: inline-flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         transition: all 0.4s;}
         .Subtitulo:hover{ color: white;
         background-color: black;
-        border-radius: 100%;}
+        border-radius: 10%;}
         
-        .Enlace{ background-color: black ;
+        .Enlace{ 
         color: rgb(154, 47, 255);
+        width: 100%;
         display: inline-flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -41,7 +43,7 @@ body{background-color: yellowgreen}
         cursor: pointer;}
         
         section{ background: lemonchiffon;
-            width: 400px;
+            width: 100%;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -64,6 +66,7 @@ body{background-color: yellowgreen}
         aside{background-color: salmon;
         color: indigo;
         display: flex;
+        width: 100%;
         height: 200px;
         flex-direction: column;}
     
