@@ -1,0 +1,81 @@
+
+@media screen and (min-width: 100px) and (max-width: 2000px) {
+    
+
+    
+body{background-color: yellowgreen}
+
+
+    .Titulo{ background-color: blue;
+        display: inline-flex;
+        color: white;
+        transition: all 0.4s;}
+        .Titulo:hover {color: gold;
+            background-color: green;
+        }
+        
+        .Subtitulo {background-color: white;
+            color: black;
+        font-size: xx-large;
+        width: 150px;
+        height: 150px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.4s;}
+        .Subtitulo:hover{ color: white;
+        background-color: black;
+        border-radius: 100%;}
+        
+        .Enlace{ background-color: black ;
+        color: rgb(154, 47, 255);
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+        .Enlace1{background-color: khaki;
+        color: paleturquoise;
+        transition: all 0.4s;
+        opacity: 0.5;}
+        .Enlace1:hover{ opacity: 1;
+        cursor: pointer;}
+        
+        section{ background: lemonchiffon;
+            width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        float: right;
+        }
+        .saxophone{
+            animation-name: Saxo;
+            animation-duration: 4s;
+        }
+        @keyframes Saxo {from {background-color: yellowgreen;
+        color: yellowgreen;}
+    
+        to {background-color: lemonchiffon;
+        color: black;}
+        }
+        
+        
+        
+        aside{background-color: salmon;
+        color: indigo;
+        display: flex;
+        height: 200px;
+        flex-direction: column;}
+    
+        .Fuera{animation-name: Out;
+        animation-duration: 4s;}
+        @keyframes Out {from {margin-left: 100%;
+        background-color: yellowgreen;
+    color: yellowgreen;}
+        to {margin-left: 0%;
+        background-color: salmon;
+    color: indigo;}}
+    
+}
+
+
